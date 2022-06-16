@@ -31,8 +31,7 @@ function submitData(name, email){
       .catch( function ( error ) {
         const p = document.createElement("p");
         document.body.append(p)
-        p.textContent = error
-        return error.message
+        p.textContent = error.message
     
       } )
 }
